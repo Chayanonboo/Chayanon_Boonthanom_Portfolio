@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chayanon Boonthanom | Data Analyst Portfolio</title>
-    <!-- JetBrains Mono Font -->
+    
+    <!-- Fonts & CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Navigation -->
     <nav>
         <div class="container">
-            <a href="#" class="logo">CB.</a>
+            <a href="#" class="logo">Chayanonboo</a>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -22,6 +25,7 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <header id="home" class="hero">
         <div class="container">
             <h1>Chayanon Boonthanom</h1>
@@ -31,37 +35,70 @@
         </div>
     </header>
 
+    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <h2>Featured Projects</h2>
             <div class="project-grid">
+                
+                <!-- Project 1: SQL -->
                 <div class="project-card">
-                    <h3>Project Title 1</h3>
-                    <p>Brief description of your first data project (e.g., Sales Analysis with SQL).</p>
-                    <a href="#" class="project-link">Learn More &rarr;</a>
+                    <h3>Restaurant Business Intelligence & Database Analysis</h3>
+                    <p>
+                        An end-to-end database simulation developed using <strong>SQLite</strong> and <strong>Python (Pandas)</strong>. 
+                        I designed a comprehensive relational schema covering staff, menus, customers, and transactions. 
+                        The project showcases advanced SQL techniques like <strong>CTEs</strong> and <strong>Aggregate Functions</strong> 
+                        เพื่อวิเคราะห์พฤติกรรมลูกค้าและยอดขายจาก 4 ตารางหลัก
+                    </p>
+                    <a href="https://github.com/Chayanonboo/DSB-batch10/blob/main/Project/DSB_SQL/1.%20SQL_Restaurant_Database.ipynb" 
+                       class="project-link" target="_blank" rel="noopener noreferrer">
+                        View Code on GitHub &rarr;
+                    </a>
                 </div>
+
+                <!-- Project 2: R (EDA & RFM) -->
                 <div class="project-card">
-                    <h3>Project Title 2</h3>
-                    <p>Brief description of your second project (e.g., Python Customer Segmentation).</p>
-                    <a href="#" class="project-link">Learn More &rarr;</a>
+                    <h3>E-commerce Customer Insights & RFM Segmentation</h3>
+                    <p>
+                        An in-depth EDA of the <strong>Online Retail Dataset</strong> using <strong>R</strong>. 
+                        Investigated 10 analytical dimensions and implemented <strong>RFM Feature Engineering</strong> 
+                        to segment customers by behavior. Using <strong>Tidyverse</strong>, I transformed raw data 
+                        into insights to optimize marketing and purchasing patterns.
+                    </p>
+                    <a href="https://chayanonboo.com/2025/10/31/10-topics-of-data-analysis-of-the-uci-machine-learning-repositorys-online-retail-dataset-using-r/" 
+                       class="project-link" target="_blank" rel="noopener noreferrer">
+                        Read Case Study &rarr;
+                    </a>
                 </div>
+
+                <!-- Project 3: Python (Superstore) -->
                 <div class="project-card">
-                    <h3>Project Title 3</h3>
-                    <p>Brief description of your third project (e.g., Tableau Dashboard for Marketing).</p>
-                    <a href="#" class="project-link">Learn More &rarr;</a>
+                    <h3>Superstore Sales Performance & Profitability Analysis</h3>
+                    <p>
+                        Strategic analysis of the <strong>Sample Superstore Dataset</strong> using <strong>Python</strong>. 
+                        Focused on <strong>Profit Margin analysis</strong> and operational inefficiencies. 
+                        Provided data-driven recommendations to optimize supply chain logistics and enhance 
+                        regional sales strategies for business profitability.
+                    </p>
+                    <a href="https://chayanonboo.com/2026/03/04/7-key-insights-from-sample-superstore-dataset-analysis/" 
+                       class="project-link" target="_blank" rel="noopener noreferrer">
+                        Read Case Study &rarr;
+                    </a>
                 </div>
+
             </div>
         </div>
     </section>
 
+    <!-- Footer & Contact -->
     <footer id="contact" class="contact">
         <div class="container">
             <h2>Get In Touch</h2>
             <p>I'm always open to discussing new data opportunities.</p>
             <div class="contact-links">
-                <a href="mailto:your.email@example.com">Email</a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="mailto:bcc3110@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/chayanon-boonthanom/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Chayanonboo" target="_blank">GitHub</a>
             </div>
             <p class="copyright">&copy; 2026 Chayanon Boonthanom. All rights reserved.</p>
         </div>
@@ -69,4 +106,5 @@
 
     <script src="script.js"></script>
 </body>
+</html>
 </html>
